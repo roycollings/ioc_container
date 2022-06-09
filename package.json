@@ -1,0 +1,21 @@
+{
+  "name": "ioc_container",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Roy Collings <roy.collings@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "demo": "ts-node src/demo.ts"
+  },
+  "dependencies": {
+    "winston": "^3.7.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^28.1.1",
+    "jest": "^28.1.1",
+    "ts-jest": "^28.0.4",
+    "ts-node": "^10.8.1",
+    "typescript": "^4.7.3"
+  }
+}
